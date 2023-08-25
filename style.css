@@ -1,0 +1,126 @@
+body {
+    background-image: linear-gradient(45deg, blue, rgb(0, 119, 255), #fff);
+    height: 50em;
+    display: flex;
+    max-width: 70em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.card {
+    margin-top: 10%;
+    margin-left: 45%;
+    background-color: #000;
+    opacity: 0.75;
+    width: 20em;
+    height: 30em;
+    border-radius: 1em;
+}
+
+p {
+    color: #fff;
+    font-size: larger;
+    margin-top: 1em;
+    margin-left: 1.5em;
+}
+
+.topoBaixo {
+    margin-top: 1em;
+    margin-left: 1.5em;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 14em 2em;
+    column-gap: 1em;
+
+}
+
+img,
+.pesquisa {
+    height: 2em;
+    background-color: #fff;
+    border-radius: 5px;
+    
+}
+
+img {
+    margin-top: 5px;
+    width: 2em;
+}
+
+img:hover {
+    height: 2.1em;
+    width: 2.1em;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.linha {
+    margin-top: 1em;
+    margin-left: 2.5em;
+    background-color: #ffffff;
+    height: 0.05em;
+    width: 15em;
+
+}
+
+#ptBaixo{
+    height: 20em;
+    width: 20em;
+    padding-top: 40px;
+    color: #fff;
+}
+
+.cidade,
+.tempo,
+.chuva {
+    text-align: center;
+    
+}
+
+
+.cidade {
+    font-size: 36px;
+}
+
+.temperatura {
+    font-size: 60px;
+    text-align: center;
+}
+
+.tempo {
+    font-size: 30px;
+}
+
+.chuva {
+    font-size: 20px;
+}
+
+
+@media (max-width: 1000px) {
+    .card {
+        margin-left: 35%;
+    }
+}
+
+@media (max-width: 800px) {
+    .card {
+        margin-left: 20%;
+    }
+}
+
+@media (max-width: 600px) {
+    .card {
+        margin-left: 15%;
+    }
+}
+
+@media (max-width: 400px) {
+    .card {
+        margin-left: 5%;
+    }
+}
+
+@media (max-width: 200px) {
+    .card {
+        margin-left: 0%;
+    }
+}
